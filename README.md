@@ -39,5 +39,5 @@ Si quieres volver al comportamiento original de Edge, ejecuta `enable_occlusion.
 ## ⚠️ Advertencia
 
 Este cambio modifica configuraciones del registro de Windows. 
-Solo continúa si sabes lo que estás haciendo o confías en el archivo. 
+Solo continúa si sabes lo que estás haciendo o confías en el archivo
 El cambio es seguro, pero ocasionalmente podría requerir permisos de administrador.
