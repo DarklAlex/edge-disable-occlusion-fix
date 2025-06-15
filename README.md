@@ -80,7 +80,7 @@ por:
 [HKEY_LOCAL_MACHINE\SOFTWARE\Policies\Google\Chrome]
 ```
 
-> 🔄 Cambia `"Microsoft\Edge"` por `"Google\Chrome"` o el nombre correspondiente al navegador que uses.
+> 🔄 Cambia `"Microsoft\Edge"` por `"Google\Chrome"` o el nombre de la empresa correspondiente y el navegador que uses.
 
 Esto debería funcionar con cualquier navegador basado en Chromium que respete políticas de grupo de Windows.
 
