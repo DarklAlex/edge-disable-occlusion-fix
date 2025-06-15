@@ -34,7 +34,7 @@ Modifica el registro de Windows para que Edge no pause el renderizado cuando est
 
 ## 🧯 Revertir los cambios
 
-Si quieres volver al comportamiento original de Edge, ejecuta `enable_occlusion.reg` y reinicia tu PC.  
+Si quieres volver al comportamiento original de Edge, ejecuta `enable_occlusion.reg` y reinicia tu Edge.  
 ¿Porque quisieras hacer eso?....pero bueno lo dejo por siacaso...
 
 ---
