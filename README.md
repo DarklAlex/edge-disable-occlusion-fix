@@ -33,24 +33,25 @@ eliminando el desenfoque, congelamiento o pantalla negra al compartir.
 
 - `disable_occlusion.reg`: Desactiva la detección de ventana en segundo plano.
 - `enable_occlusion.reg`: Restaura el comportamiento por defecto (opcional).
+- `disable_occlusion_chrome.reg`: Variante para Google Chrome u otros navegadores Chromium.
 
 ---
 
 ## ✅ Cómo usar
 
-1. **Descarga** el archivo `disable_occlusion.reg`.
+1. **Descarga** el archivo `.reg` correspondiente.
 2. Haz **doble clic** sobre él.
 3. Acepta la advertencia del sistema para aplicar los cambios al Registro.
-4. **Reinicia tu Edge**.
+4. **Reinicia tu navegador.**
 5. **COMPARTE**.
 
-¡Listo! Ahora Edge seguirá funcionando normalmente aunque esté minimizado o en segundo plano.
+¡Listo! Ahora tu navegador seguirá funcionando normalmente aunque esté minimizado o en segundo plano.
 
 ---
 
 ## 🧯 Revertir los cambios
 
-Si quieres volver al comportamiento original de Edge, ejecuta `enable_occlusion.reg` y reinicia tu Edge.  
+Si quieres volver al comportamiento original, ejecuta `enable_occlusion.reg` y reinicia tu navegador.  
 ¿Porque quisieras hacer eso?... pero bueno, lo dejo por si acaso.
 
 ---
@@ -62,3 +63,27 @@ Solo continúa si sabes lo que estás haciendo o confías en el archivo.
 El cambio es seguro, pero ocasionalmente podría requerir permisos de administrador.
 
 ---
+
+## 🔁 Extra: ¿Usas otro navegador basado en Chromium?
+
+También puedes aplicar este mismo método a **otros navegadores Chromium**, como **Google Chrome**, **Opera GX**, **Brave**, **Vivaldi**, etc.
+
+Solo necesitas **modificar el archivo `.reg`** y reemplazar:
+
+```reg
+[HKEY_LOCAL_MACHINE\SOFTWARE\Policies\Microsoft\Edge]
+```
+
+por:
+
+```reg
+[HKEY_LOCAL_MACHINE\SOFTWARE\Policies\Google\Chrome]
+```
+
+> 🔄 Cambia `"Microsoft\Edge"` por `"Google\Chrome"` o el nombre correspondiente al navegador que uses.
+
+Esto debería funcionar con cualquier navegador basado en Chromium que respete políticas de grupo de Windows.
+
+**Nota:**  
+Algunos navegadores pueden ignorar estas claves si no están compilados para respetar políticas empresariales.  
+Aun así, Chrome y la mayoría de variantes modernas suelen aceptar estas configuraciones.
