@@ -45,7 +45,7 @@ eliminando el desenfoque, congelamiento o pantalla negra al compartir.
 4. **Reinicia tu navegador.**
 5. **COMPARTE**.
 
-¡Listo! Ahora tu navegador seguirá funcionando normalmente aunque esté minimizado o en segundo plano.
+¡Listo! Ahora tu navegador seguirá compartiendo normalmente aunque esté minimizado o en segundo plano.
 
 ---
 
