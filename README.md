@@ -32,8 +32,8 @@ eliminando el desenfoque, congelamiento o pantalla negra al compartir.
 ## 📦 Archivos incluidos
 
 - `disable_occlusion.reg`: Desactiva la detección de ventana en segundo plano.
-- `enable_occlusion.reg`: Restaura el comportamiento por defecto (opcional).
 - `disable_occlusion_chrome.reg`: Variante para Google Chrome u otros navegadores Chromium.
+- `enable_occlusion.reg`: Restaura el comportamiento por defecto (opcional).
 
 ---
 
